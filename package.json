@@ -1,6 +1,6 @@
 {
   "name": "vue-capacitor-haptics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue composable and directives helpers for Capacitor Haptics",
   "keywords": [
     "vue",
