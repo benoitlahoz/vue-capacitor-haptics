@@ -2,11 +2,40 @@
   "name": "vue-capacitor-haptics",
   "version": "1.0.0",
   "description": "Vue composable and directives helpers for Capacitor Haptics",
-  "type": "module",
-  "sideEffects": false,
+  "keywords": [
+    "vue",
+    "vue3",
+    "capacitor",
+    "haptics",
+    "@capacitor/haptics",
+    "ionic",
+    "mobile",
+    "ios",
+    "android",
+    "vibration",
+    "directive",
+    "composable",
+    "plugin",
+    "typescript"
+  ],
+  "homepage": "https://github.com/benoitlahoz/vue-capacitor-haptics#readme",
+  "bugs": {
+    "url": "https://github.com/benoitlahoz/vue-capacitor-haptics/issues"
+  },
+  "license": "MIT",
+  "author": "Benoît Lahoz <info@benoitlahoz.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benoitlahoz/vue-capacitor-haptics.git"
+  },
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -14,9 +43,6 @@
       "default": "./dist/index.js"
     }
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "vite build",
     "dev": "vite",
@@ -42,12 +68,5 @@
     "vite-plugin-dts": "^4.5.4",
     "vitest": "^4.0.17",
     "vue": "^3.5.22"
-  },
-  "keywords": [
-    "vue",
-    "capacitor",
-    "haptics"
-  ],
-  "author": "ZDS",
-  "license": "MIT"
+  }
 }

@@ -17,6 +17,14 @@ Vue utilities for Capacitor haptics with a production-ready default strategy:
 ## Installation
 
 ```bash
+npm install vue-capacitor-haptics @capacitor/core @capacitor/haptics
+```
+
+```bash
+pnpm add vue-capacitor-haptics @capacitor/core @capacitor/haptics
+```
+
+```bash
 yarn add vue-capacitor-haptics @capacitor/core @capacitor/haptics
 ```
 
@@ -131,6 +139,24 @@ This is usually better than using `pointermove` directly, because haptics only f
 - `selection` -> selection changed
 - `success`, `warning`, `error` -> notification feedback
 
+## API
+
+Main exports:
+
+- `VueCapacitorHaptics` (Vue plugin)
+- `hapticDirective`, `createHapticDirective`
+- `useHaptics`, `createHaptics`
+- `ImpactStyle`, `NotificationType`
+
+Main types:
+
+- `HapticKind`
+- `HapticEngineOptions`
+- `HapticsPluginOptions`
+- `HapticDirectiveValue`, `HapticDirectiveConfig`
+- `TriggerHapticOptions`, `CreateOnChangeTriggerOptions<T>`
+- `ImpactOptions`, `NotificationOptions`, `VibrateOptions`
+
 ## Testing
 
 ```bash
@@ -144,3 +170,7 @@ yarn test:coverage
 - Native haptics require a Capacitor runtime (iOS/Android).
 - On web, fallback vibration is optional and browser/device dependent.
 - If `prefers-reduced-motion: reduce` is active and `respectReducedMotion` is enabled, no haptic feedback is emitted.
+
+## License
+
+MIT.
