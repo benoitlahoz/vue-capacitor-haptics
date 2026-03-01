@@ -134,9 +134,9 @@ This is usually better than using `pointermove` directly, because haptics only f
 ## Testing
 
 ```bash
-yarn workspace vue-capacitor-haptics type-check
-yarn workspace vue-capacitor-haptics test
-yarn workspace vue-capacitor-haptics test:coverage
+yarn type-check
+yarn test
+yarn test:coverage
 ```
 
 ## Notes
